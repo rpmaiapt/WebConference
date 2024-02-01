@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/style.css"></link>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -27,10 +28,22 @@
                     <a href="#contacts" class="nav-link">Contacts</a>
                 </li>
             </ul>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
     </nav>
     <header>
         <!--MAIN IMAGE AND SIGNUP BUTTON-->
+        <div class="container">
+            <div class="intro-text">
+                <!--Tittle-->
+                <div class="intro-lead-in">Let's Celebrate the Web!</div>
+                <div class="intro-heading text-uppercase">WebConference</div>
+                <!--Sign up Button-->
+                <a href="#" class="btn btn-primary btn-xl text-uppercase" id="btnRegister">Sign Up</a>
+            </div>
+        </div>
     </header>
     <section id="about">
         <!--BASIC INFO ABOUT THE CONFERENCE-->
@@ -50,6 +63,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    
+    <script src="./js/webconf.js"></script>
 </body>
 </html>
