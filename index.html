@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./stylesheets/style.css"></link>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -47,9 +48,44 @@
     </header>
     <section id="about">
         <!--BASIC INFO ABOUT THE CONFERENCE-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="secton-heading text-uppercase">About WebConference</h2>
+                    <h3 class="section-subheading">WebConference about...</h3>
+                </div>
+                <!--Title and main text-->
+            </div>
+            <div class="row">
+                <!--Topics-->
+                <div class="col-md-6 text-center">
+                    <!--Topic 1-->
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="topic-heading">Obiquous Computation</h4>
+                    <p class="text-muted">Expanding the web...</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <!--Topic 2-->
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="topic-heading">Obiquous Computation</h4>
+                    <p class="text-muted">Expanding the web...</p>
+                    
+                </div>
+                
+            </div>
+        </div>
     </section>
     <section id="speakers">
         <!--INFO ABOUT THE CONFERENCE SPEAKERS-->
+        <div class="row" id="renderSpeakers">
+            
+        </div>
     </section>
     <section id="sponsers">
         <!--INFO ABOUT THE CONFERENCE SPONSORS-->
@@ -64,5 +100,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="./js/webconf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.9/sweetalert2.all.min.js"></script>
 </body>
 </html>
